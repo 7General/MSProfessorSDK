@@ -28,15 +28,15 @@ TODO: Add long description of the pod here.
      'MSProfessorSDK' => ['MSProfessorSDK/Assets/**']
    }
    ## 统计fps
-   s.subspec 'fps' do |fps|
-       fps.source_files = 'MSProfessorSDK/Classes/fps/*.{h,m}'
+   s.subspec 'fps' do |fs|
+       fs.source_files = 'MSProfessorSDK/Classes/fps/*.{h,m}'
        #fps.public_header_files = 'MSProfessorSDK/Classes/fps/**/**'
    end
    ## 导航栏底线
-   s.subspec 'uiview' do |uiview|
-       uiview.source_files = 'MSProfessorSDK/Classes/uiview/*.{h,m}'
+   #s.subspec 'uiview' do |uv|
+       #uv.source_files = 'MSProfessorSDK/Classes/uiview/*.{h,m}'
        #uiview.public_header_files = 'MSProfessorSDK/Classes/uiview/**/**'
-   end
+       #end
    
 
 
