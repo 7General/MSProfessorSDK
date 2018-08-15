@@ -1,0 +1,11 @@
+#use_frameworks!
+
+target 'MSProfessorSDK_Example' do
+  pod 'MSProfessorSDK', :path => '../'
+
+  target 'MSProfessorSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

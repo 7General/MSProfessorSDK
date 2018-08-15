@@ -1,0 +1,16 @@
+PODS:
+  - MSProfessorSDK (0.1.0)
+
+DEPENDENCIES:
+  - MSProfessorSDK (from `../`)
+
+EXTERNAL SOURCES:
+  MSProfessorSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MSProfessorSDK: d86ddcded5af6e41a4fb60460724c36af5b8c522
+
+PODFILE CHECKSUM: 5122a84b01f7df7e9825ba01dfbad2600e721af5
+
+COCOAPODS: 1.5.0.beta.1

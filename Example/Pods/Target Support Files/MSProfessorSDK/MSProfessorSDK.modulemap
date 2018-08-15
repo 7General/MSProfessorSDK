@@ -1,0 +1,6 @@
+framework module MSProfessorSDK {
+  umbrella header "MSProfessorSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
