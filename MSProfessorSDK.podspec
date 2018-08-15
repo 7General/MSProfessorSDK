@@ -22,7 +22,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-#s.source_files = 'MSProfessorSDK/Classes/**/*'
+
   s.source_files = 'MSProfessorSDK/Classes/MSProfessor.h'
 #   s.resource_bundles = {
 #     'MSProfessorSDK' => ['MSProfessorSDK/Assets/**']
