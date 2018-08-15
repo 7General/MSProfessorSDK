@@ -30,12 +30,12 @@ TODO: Add long description of the pod here.
    ## 统计fps
    s.subspec 'fps' do |fps|
        fps.source_files = 'MSProfessorSDK/Classes/fps/**/**'
-       fps.public_header_files = 'MSProfessorSDK/Classes/fps/**/**'
+       #fps.public_header_files = 'MSProfessorSDK/Classes/fps/**/**'
    end
    ## 导航栏底线
    s.subspec 'uiview' do |uiview|
        uiview.source_files = 'MSProfessorSDK/Classes/uiview/**/**'
-       uiview.public_header_files = 'MSProfessorSDK/Classes/uiview/**/**'
+       #uiview.public_header_files = 'MSProfessorSDK/Classes/uiview/**/**'
    end
    
 
