@@ -22,7 +22,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MSProfessorSDK/Classes/**/*'
+#s.source_files = 'MSProfessorSDK/Classes/**/*'
   
    s.resource_bundles = {
      'MSProfessorSDK' => ['MSProfessorSDK/Assets/**']
@@ -33,10 +33,16 @@ TODO: Add long description of the pod here.
        #fps.public_header_files = 'MSProfessorSDK/Classes/fps/**/**'
    end
    ## 导航栏底线
-   #s.subspec 'uiview' do |uv|
-       #uv.source_files = 'MSProfessorSDK/Classes/uiview/*.{h,m}'
+   s.subspec 'uiview' do |uv|
+       uv.source_files = 'MSProfessorSDK/Classes/uiview/*.{h,m}'
        #uiview.public_header_files = 'MSProfessorSDK/Classes/uiview/**/**'
-       #end
+    end
+   
+   ## llvm
+   s.subspec 'llvm' do |lv|
+       lv.source_files = 'MSProfessorSDK/Classes/lv/*.{h,m}'
+       #uiview.public_header_files = 'MSProfessorSDK/Classes/uiview/**/**'
+   end
    
 
 

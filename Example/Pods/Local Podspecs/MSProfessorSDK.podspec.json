@@ -18,7 +18,6 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "MSProfessorSDK/Classes/**/*",
   "resource_bundles": {
     "MSProfessorSDK": [
       "MSProfessorSDK/Assets/**"
@@ -28,6 +27,14 @@
     {
       "name": "fps",
       "source_files": "MSProfessorSDK/Classes/fps/*.{h,m}"
+    },
+    {
+      "name": "uiview",
+      "source_files": "MSProfessorSDK/Classes/uiview/*.{h,m}"
+    },
+    {
+      "name": "llvm",
+      "source_files": "MSProfessorSDK/Classes/lv/*.{h,m}"
     }
   ]
 }
