@@ -7,82 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00935396102A9229E7CF7C1700415FCF /* UIViewController+NavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B5E669DD937D398F0E519E8C8245756 /* UIViewController+NavigationBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		018DDE2297BFF7395CFC70B0A4ACCC20 /* MSLATool.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EC84C72321189823C55FC4E8389914 /* MSLATool.m */; };
 		189497AC376BF5F54744F1EB4B6232A3 /* Pods-MSProfessorSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76E81BEB3CC15B4D8DC8039D6B46D9E5 /* Pods-MSProfessorSDK_Example-dummy.m */; };
 		19512F3AF5C4ABA2FA73960D221C3DBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		2CFA56D1207873BAC86DAA886F5F20F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		3234508C1224207D6C9E06DBFE72161A /* UINavigationController+NavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 477592DA65429E41426B34C08703FFC1 /* UINavigationController+NavigationBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		32EBE20C8E8F436CACC330C02D43D6CE /* MSLATool.h in Headers */ = {isa = PBXBuildFile; fileRef = AFF596BF970BD2DEF2D513B6F472C32F /* MSLATool.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		35533509C0F5C39C1139F5AE4339D00C /* UIViewController+NavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FD811EF230CDDB1F9BD9F0942733E99 /* UIViewController+NavigationBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		443A006EC13EAA20E4ADBEE29ABC08D4 /* NSObject+llvmIntrospection.h in Headers */ = {isa = PBXBuildFile; fileRef = 78637CE37B3D0AA4C4FD36EFF7BB6FBF /* NSObject+llvmIntrospection.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		616FF1B4DEDB7D728C62F6D0D7631D4A /* UIViewController+NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = ED33EAF8A63D05DE709DC791C4F36405 /* UIViewController+NavigationBar.m */; };
-		9E71ADB2A9D7F51D64970E465D83DF6B /* MSLATool.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD4D07F8C90C22D5008706E4B1D6FAF /* MSLATool.m */; };
+		2CB456A45F3B732E0B3F37160FE1D34A /* MSFPSMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 09CA54D4238FC60A0539B635A7CAD2AF /* MSFPSMonitor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		512C4222A467EF57504B036F6B71CB21 /* MSFPSMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = D77F10CA566B94FAD72A0DF8690AA7BE /* MSFPSMonitor.m */; };
+		60E97D426387E57C512C552D5FC5EDDD /* UINavigationController+NavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F662C16B64A151E8BB9A721D22CBDA3 /* UINavigationController+NavigationBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		84BF0690C2581FCD481B228E22952E16 /* MSLAMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = B74BE24EEA18EA74A95B8DC69262D5E4 /* MSLAMonitor.m */; };
 		9F19B2C1FEB39BE19E59D84344FC686F /* Pods-MSProfessorSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D207F102D08AB07C09B71D1307943EB /* Pods-MSProfessorSDK_Tests-dummy.m */; };
-		B32B99DB8E28E161E56CEF4825307535 /* UINavigationController+NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B347BB487658FB16F4C028263987C0D /* UINavigationController+NavigationBar.m */; };
-		B6E69FAB8CA416F89B382A1859652906 /* MSFPSMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F057BD2F2A171ECA5035CC3E09722A /* MSFPSMonitor.m */; };
-		B89BFC35688B7DEA8579C893F24AA7D9 /* MSLAMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = BE662B96A2F8AEB970AB44DF5D00DB79 /* MSLAMonitor.m */; };
-		BAC6131396016335234F5B92A118A0EE /* MSLAMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = E9BFCCD9DC597E657E875B126E491CAC /* MSLAMonitor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A0C0EC7354B32CACC64B93448BEA34E0 /* UINavigationController+NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CB9817C1409A915D74B441654AC821 /* UINavigationController+NavigationBar.m */; };
+		B62E61DCB5AAA3DFBAE4DE992674EFBB /* MSLATool.h in Headers */ = {isa = PBXBuildFile; fileRef = 47D04378476BAC6B1F234682FC418F1E /* MSLATool.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D4E99F0E15795B1ADE61D4FFF96F06FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		EC1E0CDA891AE25A845883F402074766 /* MSProfessorSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7512A53CD496F2DE5A191596DC89394C /* MSProfessorSDK-dummy.m */; };
-		F2EC84E11AA36D73C342EF53F3EE9DDF /* MSFPSMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 639AB048D271B4757A06E24CD3C5C0DB /* MSFPSMonitor.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F4FEF69C4ABC4BB3F3396F74C0E3263E /* NSObject+llvmIntrospection.m in Sources */ = {isa = PBXBuildFile; fileRef = 799FA60E760B32CD5FB8FC4F234E8995 /* NSObject+llvmIntrospection.m */; };
+		D724E3D67F66C337F822673B94C3840A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EB4BB4DD0A05AA2C618C8A29AC0BB97B /* MSProfessorSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AAF31D3BB2A0FA6B9DFB88CB766114 /* MSProfessorSDK-dummy.m */; };
+		F73680F19D0BB5F9CB968296F4E08BAB /* UIViewController+NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BF3A5C2D24A09C10D804076F5ADF25 /* UIViewController+NavigationBar.m */; };
+		FF8BC4CB27F423DE396203D3AB9310E6 /* MSLAMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0032EA2A35C9BB892C57DB46FB5D34CB /* MSLAMonitor.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		AEC15E3BDCF097F07D2E0248FFF968D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B323EFACD888F90BF8BA2F3152BD4CD1;
+			remoteInfo = "MSProfessorSDK-MSProfessorSDK";
+		};
 		B3BD78FBC37BFCE3CD9A4E284CAA9906 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 36F37CE7D02CB6791B244444813D14A0;
+			remoteGlobalIDString = D41EC7D85847A14B62A37E178735B2C3;
 			remoteInfo = MSProfessorSDK;
-		};
-		C2ACF62190D1D1A8EBF1C54B0774BBBD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5A117B04AC5AF1376C9932BD466AE011;
-			remoteInfo = "MSProfessorSDK-MSProfessorSDK";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0032EA2A35C9BB892C57DB46FB5D34CB /* MSLAMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSLAMonitor.h; path = MSProfessorSDK/Classes/fps/MSLAMonitor.h; sourceTree = "<group>"; };
 		0286BB7746F3F414178A493A044F1498 /* Pods-MSProfessorSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSProfessorSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
-		05F057BD2F2A171ECA5035CC3E09722A /* MSFPSMonitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSFPSMonitor.m; path = MSProfessorSDK/Classes/fps/MSFPSMonitor.m; sourceTree = "<group>"; };
-		0B347BB487658FB16F4C028263987C0D /* UINavigationController+NavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+NavigationBar.m"; path = "MSProfessorSDK/Classes/uiview/UINavigationController+NavigationBar.m"; sourceTree = "<group>"; };
+		09CA54D4238FC60A0539B635A7CAD2AF /* MSFPSMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSFPSMonitor.h; path = MSProfessorSDK/Classes/fps/MSFPSMonitor.h; sourceTree = "<group>"; };
 		136329D683C740C2431ABBD92CAF1124 /* MSProfessorSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MSProfessorSDK.bundle; path = "MSProfessorSDK-MSProfessorSDK.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A6D2E45965F62834474F4CBB80378F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1D207F102D08AB07C09B71D1307943EB /* Pods-MSProfessorSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSProfessorSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		1FD811EF230CDDB1F9BD9F0942733E99 /* UIViewController+NavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+NavigationBar.h"; path = "MSProfessorSDK/Classes/uiview/UIViewController+NavigationBar.h"; sourceTree = "<group>"; };
 		30356CD21566384AAE7C696068E131B4 /* Pods-MSProfessorSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSProfessorSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		37EC84C72321189823C55FC4E8389914 /* MSLATool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSLATool.m; path = MSProfessorSDK/Classes/fps/MSLATool.m; sourceTree = "<group>"; };
 		41D198CB416D0FF61964A4D636D1D2A6 /* Pods-MSProfessorSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSProfessorSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4211050BFE3C971917A8506410A3E935 /* Pods-MSProfessorSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSProfessorSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		477592DA65429E41426B34C08703FFC1 /* UINavigationController+NavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+NavigationBar.h"; path = "MSProfessorSDK/Classes/uiview/UINavigationController+NavigationBar.h"; sourceTree = "<group>"; };
-		4B8E7C18673D23DD9E787819505215E6 /* MSProfessorSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSProfessorSDK-prefix.pch"; sourceTree = "<group>"; };
-		515285F50B3CA4A1A7E047F156F371CA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		5F75E52773153CCB102CB09D8EDBC02A /* MSProfessorSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MSProfessorSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		639AB048D271B4757A06E24CD3C5C0DB /* MSFPSMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSFPSMonitor.h; path = MSProfessorSDK/Classes/fps/MSFPSMonitor.h; sourceTree = "<group>"; };
+		47D04378476BAC6B1F234682FC418F1E /* MSLATool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSLATool.h; path = MSProfessorSDK/Classes/fps/MSLATool.h; sourceTree = "<group>"; };
+		50F15F78EB93AC08B47E7477AC86252C /* MSProfessorSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MSProfessorSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5ECEC1EE848FB1A4BBB4049A3BC19480 /* ResourceBundle-MSProfessorSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MSProfessorSDK-Info.plist"; sourceTree = "<group>"; };
+		65F21A8D6EC773B8DC3488D55A653845 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		67F30E304B52E4037293BDB89514377D /* MSProfessorSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSProfessorSDK.xcconfig; sourceTree = "<group>"; };
+		6B5E669DD937D398F0E519E8C8245756 /* UIViewController+NavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+NavigationBar.h"; path = "MSProfessorSDK/Classes/uiview/UIViewController+NavigationBar.h"; sourceTree = "<group>"; };
 		6DB2EBDC04ABF52FB7C613D84B6F8790 /* libPods-MSProfessorSDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MSProfessorSDK_Example.a"; path = "libPods-MSProfessorSDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E7E98C3BBA43C651C40E4B18D7D3819 /* Pods-MSProfessorSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSProfessorSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		7512A53CD496F2DE5A191596DC89394C /* MSProfessorSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSProfessorSDK-dummy.m"; sourceTree = "<group>"; };
+		6F662C16B64A151E8BB9A721D22CBDA3 /* UINavigationController+NavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+NavigationBar.h"; path = "MSProfessorSDK/Classes/uiview/UINavigationController+NavigationBar.h"; sourceTree = "<group>"; };
 		76E81BEB3CC15B4D8DC8039D6B46D9E5 /* Pods-MSProfessorSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MSProfessorSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		770ADB299CFC943B94CA505A04BC050E /* ResourceBundle-MSProfessorSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MSProfessorSDK-Info.plist"; sourceTree = "<group>"; };
-		78637CE37B3D0AA4C4FD36EFF7BB6FBF /* NSObject+llvmIntrospection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+llvmIntrospection.h"; path = "MSProfessorSDK/Classes/llvm/NSObject+llvmIntrospection.h"; sourceTree = "<group>"; };
-		799FA60E760B32CD5FB8FC4F234E8995 /* NSObject+llvmIntrospection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+llvmIntrospection.m"; path = "MSProfessorSDK/Classes/llvm/NSObject+llvmIntrospection.m"; sourceTree = "<group>"; };
+		84AAF31D3BB2A0FA6B9DFB88CB766114 /* MSProfessorSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSProfessorSDK-dummy.m"; sourceTree = "<group>"; };
 		8E96220240CF6F7D8CD040AB44CE83D0 /* Pods-MSProfessorSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MSProfessorSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95315357856A88C5BF508938DA5C3F45 /* libMSProfessorSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMSProfessorSDK.a; path = libMSProfessorSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFF596BF970BD2DEF2D513B6F472C32F /* MSLATool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSLATool.h; path = MSProfessorSDK/Classes/fps/MSLATool.h; sourceTree = "<group>"; };
 		B23E87FDCAA7F12904263C547C0BEA8D /* Pods-MSProfessorSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSProfessorSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B396AD2F60789741712CF254F0FD201E /* Pods-MSProfessorSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MSProfessorSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BE662B96A2F8AEB970AB44DF5D00DB79 /* MSLAMonitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSLAMonitor.m; path = MSProfessorSDK/Classes/fps/MSLAMonitor.m; sourceTree = "<group>"; };
-		CDD4D07F8C90C22D5008706E4B1D6FAF /* MSLATool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSLATool.m; path = MSProfessorSDK/Classes/fps/MSLATool.m; sourceTree = "<group>"; };
+		B74BE24EEA18EA74A95B8DC69262D5E4 /* MSLAMonitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSLAMonitor.m; path = MSProfessorSDK/Classes/fps/MSLAMonitor.m; sourceTree = "<group>"; };
+		C2CB9817C1409A915D74B441654AC821 /* UINavigationController+NavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+NavigationBar.m"; path = "MSProfessorSDK/Classes/uiview/UINavigationController+NavigationBar.m"; sourceTree = "<group>"; };
+		D2B927569946C77C2011E32F8B80CCBA /* MSProfessorSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSProfessorSDK-prefix.pch"; sourceTree = "<group>"; };
+		D77F10CA566B94FAD72A0DF8690AA7BE /* MSFPSMonitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSFPSMonitor.m; path = MSProfessorSDK/Classes/fps/MSFPSMonitor.m; sourceTree = "<group>"; };
+		DAC8F9719984F7ED073F2CB1390962B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E6F01BA318BBD12D3336840EEA1DEAB9 /* libPods-MSProfessorSDK_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MSProfessorSDK_Tests.a"; path = "libPods-MSProfessorSDK_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9BFCCD9DC597E657E875B126E491CAC /* MSLAMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSLAMonitor.h; path = MSProfessorSDK/Classes/fps/MSLAMonitor.h; sourceTree = "<group>"; };
 		EC1BC28ADB61F50CF8045272231C1EA1 /* Pods-MSProfessorSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSProfessorSDK_Example-resources.sh"; sourceTree = "<group>"; };
 		ECEAE7FF2913805B447220AAE4F1FB0F /* Pods-MSProfessorSDK_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSProfessorSDK_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		ED33EAF8A63D05DE709DC791C4F36405 /* UIViewController+NavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+NavigationBar.m"; path = "MSProfessorSDK/Classes/uiview/UIViewController+NavigationBar.m"; sourceTree = "<group>"; };
 		F2CE231E42E653D6A91E79C9D1DD97C9 /* Pods-MSProfessorSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MSProfessorSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F38D96797E2840FA4B44BE2F9945306C /* MSProfessorSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSProfessorSDK.xcconfig; sourceTree = "<group>"; };
+		F7BF3A5C2D24A09C10D804076F5ADF25 /* UIViewController+NavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+NavigationBar.m"; path = "MSProfessorSDK/Classes/uiview/UIViewController+NavigationBar.m"; sourceTree = "<group>"; };
 		FE6AA3F30B17D083BF727956E8968AEF /* Pods-MSProfessorSDK_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MSProfessorSDK_Tests-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,18 +91,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		59136A2AFD10E921C27A9B8FBDF0B3C4 /* Frameworks */ = {
+		5C3C4DA0016324B79E0312B3B369DA63 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CFA56D1207873BAC86DAA886F5F20F2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E63C552F8D6DFC1CC09FFC4ECC58F97 /* Frameworks */ = {
+		99AC42803934B9091BF0658B70F7C5B3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D724E3D67F66C337F822673B94C3840A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,26 +117,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		065DDC696D7ED6CAAA3D94AE374A73AE /* llvm */ = {
-			isa = PBXGroup;
-			children = (
-				78637CE37B3D0AA4C4FD36EFF7BB6FBF /* NSObject+llvmIntrospection.h */,
-				799FA60E760B32CD5FB8FC4F234E8995 /* NSObject+llvmIntrospection.m */,
-			);
-			name = llvm;
-			sourceTree = "<group>";
-		};
-		097F5B5E21FCB123E2E4259D07DC30A4 /* uiview */ = {
-			isa = PBXGroup;
-			children = (
-				477592DA65429E41426B34C08703FFC1 /* UINavigationController+NavigationBar.h */,
-				0B347BB487658FB16F4C028263987C0D /* UINavigationController+NavigationBar.m */,
-				1FD811EF230CDDB1F9BD9F0942733E99 /* UIViewController+NavigationBar.h */,
-				ED33EAF8A63D05DE709DC791C4F36405 /* UIViewController+NavigationBar.m */,
-			);
-			name = uiview;
-			sourceTree = "<group>";
-		};
 		0D7998FA783AAA99A471911DB90CEC75 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,54 +126,34 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		352BA010CC27F7C4A21FFACA24587310 /* Pod */ = {
+		11A34D9A136B22A3EC4ADF44B1246039 /* fps */ = {
 			isa = PBXGroup;
 			children = (
-				515285F50B3CA4A1A7E047F156F371CA /* LICENSE */,
-				5F75E52773153CCB102CB09D8EDBC02A /* MSProfessorSDK.podspec */,
-				1A6D2E45965F62834474F4CBB80378F0 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		480588321B71127566C199AE24AEE64F /* fps */ = {
-			isa = PBXGroup;
-			children = (
-				639AB048D271B4757A06E24CD3C5C0DB /* MSFPSMonitor.h */,
-				05F057BD2F2A171ECA5035CC3E09722A /* MSFPSMonitor.m */,
-				E9BFCCD9DC597E657E875B126E491CAC /* MSLAMonitor.h */,
-				BE662B96A2F8AEB970AB44DF5D00DB79 /* MSLAMonitor.m */,
-				AFF596BF970BD2DEF2D513B6F472C32F /* MSLATool.h */,
-				CDD4D07F8C90C22D5008706E4B1D6FAF /* MSLATool.m */,
+				09CA54D4238FC60A0539B635A7CAD2AF /* MSFPSMonitor.h */,
+				D77F10CA566B94FAD72A0DF8690AA7BE /* MSFPSMonitor.m */,
+				0032EA2A35C9BB892C57DB46FB5D34CB /* MSLAMonitor.h */,
+				B74BE24EEA18EA74A95B8DC69262D5E4 /* MSLAMonitor.m */,
+				47D04378476BAC6B1F234682FC418F1E /* MSLATool.h */,
+				37EC84C72321189823C55FC4E8389914 /* MSLATool.m */,
 			);
 			name = fps;
 			sourceTree = "<group>";
 		};
-		55F6DE070D29FA0CA1977474242798B2 /* Support Files */ = {
+		3C9839CBDA637647D05892ED66BF0270 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				67F30E304B52E4037293BDB89514377D /* MSProfessorSDK.xcconfig */,
-				7512A53CD496F2DE5A191596DC89394C /* MSProfessorSDK-dummy.m */,
-				4B8E7C18673D23DD9E787819505215E6 /* MSProfessorSDK-prefix.pch */,
-				770ADB299CFC943B94CA505A04BC050E /* ResourceBundle-MSProfessorSDK-Info.plist */,
+				65F21A8D6EC773B8DC3488D55A653845 /* LICENSE */,
+				50F15F78EB93AC08B47E7477AC86252C /* MSProfessorSDK.podspec */,
+				DAC8F9719984F7ED073F2CB1390962B9 /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MSProfessorSDK";
-			sourceTree = "<group>";
-		};
-		6DCE079F7C4883F919113F4D702E22B0 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EFC0564F5AD234BD68A0A2AC9AC66F31 /* MSProfessorSDK */,
-			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				6DCE079F7C4883F919113F4D702E22B0 /* Development Pods */,
+				C27B9530EA97FA822C1283D8345A1EBE /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				9141C4CAA6023621AF7FDD25D9431B31 /* Products */,
 				0D7998FA783AAA99A471911DB90CEC75 /* Targets Support Files */,
@@ -213,6 +169,18 @@
 				136329D683C740C2431ABBD92CAF1124 /* MSProfessorSDK.bundle */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9440E7B12B2E1CB7A179B7DED60B880C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F38D96797E2840FA4B44BE2F9945306C /* MSProfessorSDK.xcconfig */,
+				84AAF31D3BB2A0FA6B9DFB88CB766114 /* MSProfessorSDK-dummy.m */,
+				D2B927569946C77C2011E32F8B80CCBA /* MSProfessorSDK-prefix.pch */,
+				5ECEC1EE848FB1A4BBB4049A3BC19480 /* ResourceBundle-MSProfessorSDK-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MSProfessorSDK";
 			sourceTree = "<group>";
 		};
 		9D3CC0820216E59B4064809E7FC01BA5 /* Pods-MSProfessorSDK_Example */ = {
@@ -253,6 +221,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C25106C5AEFCF264CA0F41D625EF6389 /* uiview */ = {
+			isa = PBXGroup;
+			children = (
+				6F662C16B64A151E8BB9A721D22CBDA3 /* UINavigationController+NavigationBar.h */,
+				C2CB9817C1409A915D74B441654AC821 /* UINavigationController+NavigationBar.m */,
+				6B5E669DD937D398F0E519E8C8245756 /* UIViewController+NavigationBar.h */,
+				F7BF3A5C2D24A09C10D804076F5ADF25 /* UIViewController+NavigationBar.m */,
+			);
+			name = uiview;
+			sourceTree = "<group>";
+		};
+		C27B9530EA97FA822C1283D8345A1EBE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBCE6B7D4BD1699699DCF8B6FAE0871A /* MSProfessorSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -261,14 +248,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		EFC0564F5AD234BD68A0A2AC9AC66F31 /* MSProfessorSDK */ = {
+		FBCE6B7D4BD1699699DCF8B6FAE0871A /* MSProfessorSDK */ = {
 			isa = PBXGroup;
 			children = (
-				480588321B71127566C199AE24AEE64F /* fps */,
-				065DDC696D7ED6CAAA3D94AE374A73AE /* llvm */,
-				352BA010CC27F7C4A21FFACA24587310 /* Pod */,
-				55F6DE070D29FA0CA1977474242798B2 /* Support Files */,
-				097F5B5E21FCB123E2E4259D07DC30A4 /* uiview */,
+				11A34D9A136B22A3EC4ADF44B1246039 /* fps */,
+				3C9839CBDA637647D05892ED66BF0270 /* Pod */,
+				9440E7B12B2E1CB7A179B7DED60B880C /* Support Files */,
+				C25106C5AEFCF264CA0F41D625EF6389 /* uiview */,
 			);
 			name = MSProfessorSDK;
 			path = ../..;
@@ -277,47 +263,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4C85C2D07317E45A7B49154939901FA9 /* Headers */ = {
+		A221E19C3D2D6AAC6F074898076973B4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2EC84E11AA36D73C342EF53F3EE9DDF /* MSFPSMonitor.h in Headers */,
-				BAC6131396016335234F5B92A118A0EE /* MSLAMonitor.h in Headers */,
-				32EBE20C8E8F436CACC330C02D43D6CE /* MSLATool.h in Headers */,
-				443A006EC13EAA20E4ADBEE29ABC08D4 /* NSObject+llvmIntrospection.h in Headers */,
-				3234508C1224207D6C9E06DBFE72161A /* UINavigationController+NavigationBar.h in Headers */,
-				35533509C0F5C39C1139F5AE4339D00C /* UIViewController+NavigationBar.h in Headers */,
+				2CB456A45F3B732E0B3F37160FE1D34A /* MSFPSMonitor.h in Headers */,
+				FF8BC4CB27F423DE396203D3AB9310E6 /* MSLAMonitor.h in Headers */,
+				B62E61DCB5AAA3DFBAE4DE992674EFBB /* MSLATool.h in Headers */,
+				60E97D426387E57C512C552D5FC5EDDD /* UINavigationController+NavigationBar.h in Headers */,
+				00935396102A9229E7CF7C1700415FCF /* UIViewController+NavigationBar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		36F37CE7D02CB6791B244444813D14A0 /* MSProfessorSDK */ = {
+		B323EFACD888F90BF8BA2F3152BD4CD1 /* MSProfessorSDK-MSProfessorSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 733FF1C0604CCBCDEC7F3304E0CAA899 /* Build configuration list for PBXNativeTarget "MSProfessorSDK" */;
+			buildConfigurationList = B50859C51A0BC88C421B390AB5B24A21 /* Build configuration list for PBXNativeTarget "MSProfessorSDK-MSProfessorSDK" */;
 			buildPhases = (
-				DE233CE11EF9A4031337BA9B6C44118C /* Sources */,
-				59136A2AFD10E921C27A9B8FBDF0B3C4 /* Frameworks */,
-				4C85C2D07317E45A7B49154939901FA9 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B5009C14170AC6A38F7653524AFC50EB /* PBXTargetDependency */,
-			);
-			name = MSProfessorSDK;
-			productName = MSProfessorSDK;
-			productReference = 95315357856A88C5BF508938DA5C3F45 /* libMSProfessorSDK.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		5A117B04AC5AF1376C9932BD466AE011 /* MSProfessorSDK-MSProfessorSDK */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 58D0231BD3A0C6022DBDF034AC69A7E9 /* Build configuration list for PBXNativeTarget "MSProfessorSDK-MSProfessorSDK" */;
-			buildPhases = (
-				F6CAFB7BBBD921E3829ADDF871920197 /* Sources */,
-				8E63C552F8D6DFC1CC09FFC4ECC58F97 /* Frameworks */,
-				AB9FFB6BD02DF0473A1F564488814C42 /* Resources */,
+				EE0612B0BA487FD224665201C585E549 /* Sources */,
+				5C3C4DA0016324B79E0312B3B369DA63 /* Frameworks */,
+				84E7B010FEBD37DB48C5D02230E443F7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -343,6 +310,24 @@
 			name = "Pods-MSProfessorSDK_Example";
 			productName = "Pods-MSProfessorSDK_Example";
 			productReference = 6DB2EBDC04ABF52FB7C613D84B6F8790 /* libPods-MSProfessorSDK_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D41EC7D85847A14B62A37E178735B2C3 /* MSProfessorSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59A4535A246530B7F8EB41CDA8C33378 /* Build configuration list for PBXNativeTarget "MSProfessorSDK" */;
+			buildPhases = (
+				2FF69EC997801147FFA95F82986DA3A8 /* Sources */,
+				99AC42803934B9091BF0658B70F7C5B3 /* Frameworks */,
+				A221E19C3D2D6AAC6F074898076973B4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71B0F9D0AA3F669A89323AFBEA85C63C /* PBXTargetDependency */,
+			);
+			name = MSProfessorSDK;
+			productName = MSProfessorSDK;
+			productReference = 95315357856A88C5BF508938DA5C3F45 /* libMSProfessorSDK.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		F35C861999D5BAB5158F8082139426F1 /* Pods-MSProfessorSDK_Tests */ = {
@@ -382,8 +367,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				36F37CE7D02CB6791B244444813D14A0 /* MSProfessorSDK */,
-				5A117B04AC5AF1376C9932BD466AE011 /* MSProfessorSDK-MSProfessorSDK */,
+				D41EC7D85847A14B62A37E178735B2C3 /* MSProfessorSDK */,
+				B323EFACD888F90BF8BA2F3152BD4CD1 /* MSProfessorSDK-MSProfessorSDK */,
 				D2E4B20CB3E2181C9097A632E321CBE2 /* Pods-MSProfessorSDK_Example */,
 				F35C861999D5BAB5158F8082139426F1 /* Pods-MSProfessorSDK_Tests */,
 			);
@@ -391,7 +376,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AB9FFB6BD02DF0473A1F564488814C42 /* Resources */ = {
+		84E7B010FEBD37DB48C5D02230E443F7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -401,6 +386,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2FF69EC997801147FFA95F82986DA3A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512C4222A467EF57504B036F6B71CB21 /* MSFPSMonitor.m in Sources */,
+				84BF0690C2581FCD481B228E22952E16 /* MSLAMonitor.m in Sources */,
+				018DDE2297BFF7395CFC70B0A4ACCC20 /* MSLATool.m in Sources */,
+				EB4BB4DD0A05AA2C618C8A29AC0BB97B /* MSProfessorSDK-dummy.m in Sources */,
+				A0C0EC7354B32CACC64B93448BEA34E0 /* UINavigationController+NavigationBar.m in Sources */,
+				F73680F19D0BB5F9CB968296F4E08BAB /* UIViewController+NavigationBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		348C8D2FEB8ED572C63AE615A356B701 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -409,21 +407,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE233CE11EF9A4031337BA9B6C44118C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B6E69FAB8CA416F89B382A1859652906 /* MSFPSMonitor.m in Sources */,
-				B89BFC35688B7DEA8579C893F24AA7D9 /* MSLAMonitor.m in Sources */,
-				9E71ADB2A9D7F51D64970E465D83DF6B /* MSLATool.m in Sources */,
-				EC1E0CDA891AE25A845883F402074766 /* MSProfessorSDK-dummy.m in Sources */,
-				F4FEF69C4ABC4BB3F3396F74C0E3263E /* NSObject+llvmIntrospection.m in Sources */,
-				B32B99DB8E28E161E56CEF4825307535 /* UINavigationController+NavigationBar.m in Sources */,
-				616FF1B4DEDB7D728C62F6D0D7631D4A /* UIViewController+NavigationBar.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F6CAFB7BBBD921E3829ADDF871920197 /* Sources */ = {
+		EE0612B0BA487FD224665201C585E549 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -441,37 +425,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B5009C14170AC6A38F7653524AFC50EB /* PBXTargetDependency */ = {
+		71B0F9D0AA3F669A89323AFBEA85C63C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "MSProfessorSDK-MSProfessorSDK";
-			target = 5A117B04AC5AF1376C9932BD466AE011 /* MSProfessorSDK-MSProfessorSDK */;
-			targetProxy = C2ACF62190D1D1A8EBF1C54B0774BBBD /* PBXContainerItemProxy */;
+			target = B323EFACD888F90BF8BA2F3152BD4CD1 /* MSProfessorSDK-MSProfessorSDK */;
+			targetProxy = AEC15E3BDCF097F07D2E0248FFF968D4 /* PBXContainerItemProxy */;
 		};
 		BB6769B3EA884BD577BFF1954B63F3A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MSProfessorSDK;
-			target = 36F37CE7D02CB6791B244444813D14A0 /* MSProfessorSDK */;
+			target = D41EC7D85847A14B62A37E178735B2C3 /* MSProfessorSDK */;
 			targetProxy = B3BD78FBC37BFCE3CD9A4E284CAA9906 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		01933DA72699164C6198539983904E42 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67F30E304B52E4037293BDB89514377D /* MSProfessorSDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MSProfessorSDK";
-				INFOPLIST_FILE = "Target Support Files/MSProfessorSDK/ResourceBundle-MSProfessorSDK-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = MSProfessorSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		36061F5E7230B5F68653357DD2145A22 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B396AD2F60789741712CF254F0FD201E /* Pods-MSProfessorSDK_Tests.release.xcconfig */;
@@ -493,29 +461,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		3D05E97F183B8E78A4436D9D91A60474 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67F30E304B52E4037293BDB89514377D /* MSProfessorSDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/MSProfessorSDK/MSProfessorSDK-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = MSProfessorSDK;
-				PRODUCT_NAME = MSProfessorSDK;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		4F6B290F2741CC2213002FF043520280 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -702,9 +647,9 @@
 			};
 			name = Release;
 		};
-		C80F4942276EB154D816878E39EEF15D /* Debug */ = {
+		BE62DA954B03DD66010B2884A98A916A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67F30E304B52E4037293BDB89514377D /* MSProfessorSDK.xcconfig */;
+			baseConfigurationReference = F38D96797E2840FA4B44BE2F9945306C /* MSProfessorSDK.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MSProfessorSDK";
@@ -718,9 +663,25 @@
 			};
 			name = Debug;
 		};
-		CFED6160715F2533329184C018391CED /* Release */ = {
+		CD6663CAFE68C296D8D769D3CA43E264 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67F30E304B52E4037293BDB89514377D /* MSProfessorSDK.xcconfig */;
+			baseConfigurationReference = F38D96797E2840FA4B44BE2F9945306C /* MSProfessorSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MSProfessorSDK";
+				INFOPLIST_FILE = "Target Support Files/MSProfessorSDK/ResourceBundle-MSProfessorSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MSProfessorSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E19FDAF7151E835F2D103FBEB3DF68DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F38D96797E2840FA4B44BE2F9945306C /* MSProfessorSDK.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -741,6 +702,29 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		EB306EC30C5ADFF98840524F5EC97456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F38D96797E2840FA4B44BE2F9945306C /* MSProfessorSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MSProfessorSDK/MSProfessorSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MSProfessorSDK;
+				PRODUCT_NAME = MSProfessorSDK;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -763,11 +747,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58D0231BD3A0C6022DBDF034AC69A7E9 /* Build configuration list for PBXNativeTarget "MSProfessorSDK-MSProfessorSDK" */ = {
+		59A4535A246530B7F8EB41CDA8C33378 /* Build configuration list for PBXNativeTarget "MSProfessorSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C80F4942276EB154D816878E39EEF15D /* Debug */,
-				01933DA72699164C6198539983904E42 /* Release */,
+				EB306EC30C5ADFF98840524F5EC97456 /* Debug */,
+				E19FDAF7151E835F2D103FBEB3DF68DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -781,11 +765,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		733FF1C0604CCBCDEC7F3304E0CAA899 /* Build configuration list for PBXNativeTarget "MSProfessorSDK" */ = {
+		B50859C51A0BC88C421B390AB5B24A21 /* Build configuration list for PBXNativeTarget "MSProfessorSDK-MSProfessorSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3D05E97F183B8E78A4436D9D91A60474 /* Debug */,
-				CFED6160715F2533329184C018391CED /* Release */,
+				BE62DA954B03DD66010B2884A98A916A /* Debug */,
+				CD6663CAFE68C296D8D769D3CA43E264 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
