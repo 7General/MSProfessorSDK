@@ -23,10 +23,10 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
 #s.source_files = 'MSProfessorSDK/Classes/**/*'
-  
-   s.resource_bundles = {
-     'MSProfessorSDK' => ['MSProfessorSDK/Assets/**']
-   }
+  s.source_files = 'MSProfessorSDK/Classes/MSProfessor.h'
+#   s.resource_bundles = {
+#     'MSProfessorSDK' => ['MSProfessorSDK/Assets/**']
+#   }
    ## 统计fps
    s.subspec 'fps' do |fs|
        fs.source_files = 'MSProfessorSDK/Classes/fps/*.{h,m}'
@@ -39,7 +39,7 @@ TODO: Add long description of the pod here.
 #   s.subspec 'llvm' do |lv|
 #       lv.source_files = 'MSProfessorSDK/Classes/llvm/*.{h,m}'
 #   end
-   
+
 
 
 end

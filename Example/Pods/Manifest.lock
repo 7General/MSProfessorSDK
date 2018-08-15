@@ -1,10 +1,8 @@
 PODS:
   - MSProfessorSDK (0.0.1):
     - MSProfessorSDK/fps (= 0.0.1)
-    - MSProfessorSDK/llvm (= 0.0.1)
     - MSProfessorSDK/uiview (= 0.0.1)
   - MSProfessorSDK/fps (0.0.1)
-  - MSProfessorSDK/llvm (0.0.1)
   - MSProfessorSDK/uiview (0.0.1)
 
 DEPENDENCIES:
@@ -15,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MSProfessorSDK: fa90c55a8826062850ee58b85f75b23de7580d47
+  MSProfessorSDK: 8c2bc5538fcbf90da91d7e6ef3032ed4013f5d33
 
 PODFILE CHECKSUM: 5122a84b01f7df7e9825ba01dfbad2600e721af5
 
