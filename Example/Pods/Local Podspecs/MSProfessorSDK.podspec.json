@@ -27,13 +27,7 @@
   "subspecs": [
     {
       "name": "fps",
-      "source_files": "MSProfessorSDK/Classes/fps/**/*",
-      "public_header_files": "MSProfessorSDK/Classes/fps/**/**"
-    },
-    {
-      "name": "uiview",
-      "source_files": "MSProfessorSDK/Classes/uiview/**/*",
-      "public_header_files": "MSProfessorSDK/Classes/uiview/**/**"
+      "source_files": "MSProfessorSDK/Classes/fps/*.{h,m}"
     }
   ]
 }
