@@ -35,10 +35,10 @@ TODO: Add long description of the pod here.
    s.subspec 'uiview' do |uv|
        uv.source_files = 'MSProfessorSDK/Classes/uiview/*.{h,m}'
    end
-#   ## llvm
-#   s.subspec 'llvm' do |lv|
-#       lv.source_files = 'MSProfessorSDK/Classes/llvm/*.{h,m}'
-#   end
+   ## llvm
+   s.subspec 'llvm' do |lv|
+       lv.source_files = 'MSProfessorSDK/Classes/llvm/*.{h,m}'
+   end
 
 
 

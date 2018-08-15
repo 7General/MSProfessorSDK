@@ -27,6 +27,10 @@
     {
       "name": "uiview",
       "source_files": "MSProfessorSDK/Classes/uiview/*.{h,m}"
+    },
+    {
+      "name": "llvm",
+      "source_files": "MSProfessorSDK/Classes/llvm/*.{h,m}"
     }
   ]
 }
