@@ -1,9 +1,9 @@
 {
   "name": "MSProfessorSDK",
-  "version": "0.1.0",
-  "summary": "A short description of MSProfessorSDK.",
+  "version": "0.0.1",
+  "summary": "MSProfessorSDK 插件",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/wanghuizhou21@163.com/MSProfessorSDK",
+  "homepage": "https://github.com/7General",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,28 @@
     "wanghuizhou21@163.com": "wanghuizhou@guazi.com"
   },
   "source": {
-    "git": "https://github.com/wanghuizhou21@163.com/MSProfessorSDK.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/7General/MSProfessorSDK.git",
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "MSProfessorSDK/Classes/**/*"
+  "source_files": "MSProfessorSDK/Classes/**/*",
+  "resource_bundles": {
+    "MSProfessorSDK": [
+      "MSProfessorSDK/Assets/**"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "fps",
+      "source_files": "MSProfessorSDK/Classes/fps/**/*",
+      "public_header_files": "MSProfessorSDK/Classes/fps/**/**"
+    },
+    {
+      "name": "uiview",
+      "source_files": "MSProfessorSDK/Classes/uiview/**/*",
+      "public_header_files": "MSProfessorSDK/Classes/uiview/**/**"
+    }
+  ]
 }

@@ -1,0 +1,1 @@
+../../../../../MSProfessorSDK/Classes/uiview/UIViewController+NavigationBar.m
