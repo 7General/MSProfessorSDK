@@ -34,7 +34,7 @@
     },
     {
       "name": "llvm",
-      "source_files": "MSProfessorSDK/Classes/lv/*.{h,m}"
+      "source_files": "MSProfessorSDK/Classes/llvm/*.{h,m}"
     }
   ]
 }
