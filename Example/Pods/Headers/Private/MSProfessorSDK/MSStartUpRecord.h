@@ -1,0 +1,1 @@
+../../../../../MSProfessorSDK/Classes/record/MSStartUpRecord.h

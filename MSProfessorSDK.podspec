@@ -39,6 +39,14 @@ TODO: Add long description of the pod here.
    s.subspec 'llvm' do |lv|
        lv.source_files = 'MSProfessorSDK/Classes/llvm/*.{h,m}'
    end
+   ## redcup
+   s.subspec 'redcup' do |rc|
+       rc.source_files = 'MSProfessorSDK/Classes/redcup/*.{h,m}'
+   end
+   ## redcup
+   s.subspec 'record' do |rd|
+       rd.source_files = 'MSProfessorSDK/Classes/record/*.{h,m}'
+   end
 
 
 

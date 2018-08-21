@@ -31,6 +31,14 @@
     {
       "name": "llvm",
       "source_files": "MSProfessorSDK/Classes/llvm/*.{h,m}"
+    },
+    {
+      "name": "redcup",
+      "source_files": "MSProfessorSDK/Classes/redcup/*.{h,m}"
+    },
+    {
+      "name": "record",
+      "source_files": "MSProfessorSDK/Classes/record/*.{h,m}"
     }
   ]
 }

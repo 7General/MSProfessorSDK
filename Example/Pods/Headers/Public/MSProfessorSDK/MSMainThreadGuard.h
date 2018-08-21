@@ -1,0 +1,1 @@
+../../../../../MSProfessorSDK/Classes/redcup/MSMainThreadGuard.h

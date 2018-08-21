@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		223164432125699100FA706E /* msSmartFun.m in Sources */ = {isa = PBXBuildFile; fileRef = 223164422125699100FA706E /* msSmartFun.m */; };
+		2231644A21267E4C00FA706E /* MSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231644921267E4C00FA706E /* MSMainViewController.m */; };
+		2231644D21267E5800FA706E /* MSSecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2231644C21267E5800FA706E /* MSSecViewController.m */; };
 		57B86BF245824C1683A77E85 /* libPods-MSProfessorSDK_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F665EAE4C4D83B42F1CED850 /* libPods-MSProfessorSDK_Tests.a */; };
 		5F00E92B7A4E7163F09E1E1D /* libPods-MSProfessorSDK_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 920B7186B0D2A9FFE392E692 /* libPods-MSProfessorSDK_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -37,8 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02C5676143C08D8AA4BF6157 /* MSProfessorSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MSProfessorSDK.podspec; path = ../MSProfessorSDK.podspec; sourceTree = "<group>"; };
+		02C5676143C08D8AA4BF6157 /* MSProfessorSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MSProfessorSDK.podspec; path = ../MSProfessorSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0B5F3ED22592C3456B4B3225 /* Pods-MSProfessorSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSProfessorSDK_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSProfessorSDK_Example/Pods-MSProfessorSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		223164412125699100FA706E /* msSmartFun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = msSmartFun.h; sourceTree = "<group>"; };
+		223164422125699100FA706E /* msSmartFun.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = msSmartFun.m; sourceTree = "<group>"; };
+		2231644821267E4C00FA706E /* MSMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSMainViewController.h; sourceTree = "<group>"; };
+		2231644921267E4C00FA706E /* MSMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSMainViewController.m; sourceTree = "<group>"; };
+		2231644B21267E5800FA706E /* MSSecViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSSecViewController.h; sourceTree = "<group>"; };
+		2231644C21267E5800FA706E /* MSSecViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSSecViewController.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MSProfessorSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSProfessorSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,11 +68,11 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		74FC1B64FFFD89374C838D3A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		74FC1B64FFFD89374C838D3A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		75EA6091B08805BF0F643D87 /* Pods-MSProfessorSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSProfessorSDK_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSProfessorSDK_Tests/Pods-MSProfessorSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		920B7186B0D2A9FFE392E692 /* libPods-MSProfessorSDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSProfessorSDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D62D99E26B07FB836B154FB1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D62D99E26B07FB836B154FB1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E5EA6AFE72650D50F376CA7F /* Pods-MSProfessorSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSProfessorSDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSProfessorSDK_Example/Pods-MSProfessorSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F0085ED2A63BCB64F29E81F6 /* Pods-MSProfessorSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSProfessorSDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSProfessorSDK_Tests/Pods-MSProfessorSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F665EAE4C4D83B42F1CED850 /* libPods-MSProfessorSDK_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MSProfessorSDK_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +149,12 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				223164412125699100FA706E /* msSmartFun.h */,
+				223164422125699100FA706E /* msSmartFun.m */,
+				2231644821267E4C00FA706E /* MSMainViewController.h */,
+				2231644921267E4C00FA706E /* MSMainViewController.m */,
+				2231644B21267E5800FA706E /* MSSecViewController.h */,
+				2231644C21267E5800FA706E /* MSSecViewController.m */,
 			);
 			name = "Example for MSProfessorSDK";
 			path = MSProfessorSDK;
@@ -242,10 +257,13 @@
 		6003F582195388D10070C39A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = ms;
+				CLASSPREFIX = MS;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "wanghuizhou21@163.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = QNBW2BT8S6;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -336,9 +354,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2231644D21267E5800FA706E /* MSSecViewController.m in Sources */,
+				2231644A21267E4C00FA706E /* MSMainViewController.m in Sources */,
 				6003F59E195388D20070C39A /* msAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* msViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				223164432125699100FA706E /* msSmartFun.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,9 +487,11 @@
 			baseConfigurationReference = 0B5F3ED22592C3456B4B3225 /* Pods-MSProfessorSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QNBW2BT8S6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MSProfessorSDK/MSProfessorSDK-Prefix.pch";
 				INFOPLIST_FILE = "MSProfessorSDK/MSProfessorSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -481,9 +504,11 @@
 			baseConfigurationReference = E5EA6AFE72650D50F376CA7F /* Pods-MSProfessorSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QNBW2BT8S6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MSProfessorSDK/MSProfessorSDK-Prefix.pch";
 				INFOPLIST_FILE = "MSProfessorSDK/MSProfessorSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

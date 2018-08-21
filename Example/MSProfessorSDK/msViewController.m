@@ -8,6 +8,8 @@
 
 #import "msViewController.h"
 #import <MSProfessorSDK/MSLAMonitor.h>
+#import <MSProfessorSDK/MSMainThreadGuard.h>
+#import "msSmartFun.h"
 
 
 @interface msViewController ()
@@ -20,10 +22,20 @@
 {
     [super viewDidLoad];
     [MSLAMonitor showFPSWithFpsBlock:^(float fps, NSString *vcname) {
-        
+        NSLog(@"------vcname:%@",vcname);
     }];
+    MSMainThreadGuard * cup = [[MSMainThreadGuard alloc] init];
+    [cup MSredCupThread];
     
     
+
+    
+}
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        msSmartFun * ms = [[msSmartFun alloc] init];
+        [ms updatedb];
+    });
 }
 
 @end

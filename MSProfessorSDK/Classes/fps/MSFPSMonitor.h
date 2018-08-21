@@ -3,7 +3,7 @@
 //  MSProfessorSDK
 //
 //  Created by 王会洲 on 2018/8/15.
-//  Copyright © 2018年 zzg. All rights reserved.
+//  Copyright © 2018年 王会洲. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
